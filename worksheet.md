@@ -3,7 +3,8 @@
 ## Lab 2.0 Worksheet
 
 Name(s) and Login(s):
-
+saifullah
+saifapsff@gmail.com
 
 
 1. Dennis Ritchie, the creator of the C programming language,
@@ -67,11 +68,17 @@ results you observe.
 the exchange amounts for the following inputs:
 
   a) $250.25
-
+Exchange tax = 25.02    
+In british pound = 88.96
+In Japanese yen = 14375 
   b) $1,000.52
-
+Exchange tax = 100.05    
+In british pound = 355.68
+In Japanese yen = 57472 
   c) $968,410.12
-
+Exchange tax = 96.80     
+In british pound = 344.12
+In Japanese yen = 55604
 
 
 6. Suppose that you had used only `int` types
