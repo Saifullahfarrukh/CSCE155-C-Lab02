@@ -47,19 +47,19 @@ results you observe.
   size: 1 byte
   range: -128 to 127
 * `short int`
-  size:
-  range:
+  size: 2 bytes.
+  range: -32768 to 32767.
 * `int`
-  size:
-  range:
+  size:4 bytes
+  range: -2147483648 to 2147483647
 * `long int`
-  size:
-  range:
+  size: 4 bytes
+  range: -2147483648 to 2147483647
 * `float`
-  size:
+  size:  4 bytes
   range: 7 digits of accuracy
 * `double`
-  size:
+  size: 8 bytes
   range: 15 digits of accuracy
 
 
@@ -88,10 +88,16 @@ Why or why not?
 a) Run the `area` program with 3 and 4 as inputs.  
 What value do you get?  Is this result correct?
 
+Answer: The area is 0.000000 square units. No this result is not correct.
+
 
 b) Execute the program again with inputs 3 and 5.
 Does the program give correct results?  Why not?
 
+Answer: The area is 0.000000 square units. No answer is not correct because the formula of area is 1\2 * length * width and compiler considers 1\2 as zero so it gives every value zero
+
 
 c) Fix the program by editing the `area.c` source
 code so that the program produces correct results.
+
+Answer: Done
