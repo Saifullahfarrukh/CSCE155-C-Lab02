@@ -38,6 +38,8 @@ referred to as *fuzzing*).  Try breaking the `birthday_cli`
 program by giving it "bad" input and observe the consequences.
 Give at least two examples of potentially bad input and the
 results you observe.
+ 
+Answer : Today is 2023/10/21 Your birthday was Hello, saif. You are 0 years, 0 weeks, and 0 days old today
 
 
 
